@@ -1,0 +1,212 @@
+﻿<mxfile host="65bd71144e" modified="2020-11-03T15:52:47.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="nrlJIJnEpDe61eJZXOFA" version="13.6.5">
+    <diagram id="qVp4HlY-DoeAkirpydSN" name="第 1 页">
+        <mxGraphModel dx="1488" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="130" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="通过创建链表的函数创建多项式La和Lb" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="打印多项式A和B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="通过调用多项式相加的函数把创建好的多项式相加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="打印相加后的函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="销毁创建好的线性表La和Lb和Lc" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="80" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="325" y="80"/>
+                            <mxPoint x="325" y="115"/>
+                            <mxPoint x="320" y="115"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="230"/>
+                            <mxPoint x="320" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="用创建好的临时指针p，q指向传入链表ha和hc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="78">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="225" y="300"/>
+                            <mxPoint x="225" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="链表La和Lb不为NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="260" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22" target="58">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="320" y="460"/>
+                            <mxPoint x="320" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="申请临时节点s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="58">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;的指数值小于&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;q&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;的指数值&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="490" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="60" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="680" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="700"/>
+                            <mxPoint x="180" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;如果p和q的指数不相等则将p的项数的指数和系数存储新的多项式中&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="670" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="69" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="69" target="73">
+                    <mxGeometry x="0.4737" y="-40" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="525" y="640"/>
+                            <mxPoint x="525" y="640"/>
+                        </Array>
+                        <mxPoint x="40" y="-40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;的指数值等于&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;q&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;的指数值&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="490" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="70" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="680"/>
+                            <mxPoint x="730" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="将p和q的项数相加，然后把新的项数和相等的指数存储到新节点中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="73" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="780" y="770"/>
+                            <mxPoint x="780" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="将节点q的数据储存在新节点中并插入" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78" target="81">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="870"/>
+                            <mxPoint x="390" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="78" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="p！=NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="830" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="295" y="1100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;t-&amp;gt;next = p&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="960" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="81" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="474" y="1100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;t-&amp;gt;next = q&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="退出函数" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="1070" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="60" as="sourcePoint"/>
+                        <mxPoint x="375" y="50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="进入函数" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="为新多项式的链表申请头节点空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
